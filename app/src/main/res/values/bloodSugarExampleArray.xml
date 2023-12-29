@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bloodSugar">
+        <item>1/2/2022  225mmol/L</item>
+        <item>1/3/2022  325mmol/L</item>
+        <item>1/4/2022  125mmol/L</item>
+        <item>1/5/2022  335mmol/L</item>
+        <item>1/6/2022  115mmol/L</item>
+        <item>1/7/2022  125mmol/L</item>
+        <item>1/8/2022  135mmol/L</item>
+        <item>1/9/2022  155mmol/L</item>
+        <item>1/10/2022 165mmol/L</item>
+    </string-array>
+</resources>

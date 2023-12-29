@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carbLodge">
+        <item> 1/3/2022 - 30g</item>
+        <item> 1/4/2022 - 50g</item>
+        <item> 1/5/2022 - 60g</item>
+        <item> 1/6/2022 - 40g</item>
+        <item> 1/7/2022 - 20g</item>
+        <item> 1/8/2022 - 100g</item>
+        <item> 1/9/2022 - 65g</item>
+        <item> 1/10/2022 - 35g</item>
+        <item> 1/11/2022 - 100g</item>
+    </string-array>
+</resources>

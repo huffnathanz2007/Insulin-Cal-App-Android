@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/logMealLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/logMealText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Meal"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/scanBarcodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetBottom="20dp"
+        android:padding="10dp"
+        android:text="Scan Barcode" />
+
+    <Button
+        android:id="@+id/manulInputButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:insetBottom="20dp"
+        android:padding="10dp"
+        android:text="Nutrition Facts Manual Input  " />
+
+    <TextView
+        android:id="@+id/carbsTotalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Total Meal Carbs"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/loggedCarbsTotalTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Current Blood Sugar Reading"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/bloodSugarEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Current Blood Sugar"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:insetTop="170dp"
+        android:padding="10dp"
+        android:text="Calculate" />
+</LinearLayout>
